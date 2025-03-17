@@ -8,6 +8,7 @@ https://www.tenda.com.cn/material/show/102661
 
 Problem Type:
 Stack overflow
+
 Description:
 A vulnerability classified as critical has been found in Tenda AC6 15.03.05.16. Affected is the function R7WebsSecurityHandler of the file /goform/xxx. The manipulation of the argument password leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 

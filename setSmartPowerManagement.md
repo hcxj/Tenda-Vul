@@ -3,9 +3,13 @@ Tenda AC6 V15.03.05.16 was discovered to contain a stack overflow via the time p
 Vulnerability Description
 
 Vendor: Tenda
+
 Product: AC6
+
 Version: V15.03.05.16
+
 Type: Buffer Overflow
+
 Firmware link: https://www.tenda.com.cn/material/show/102661
  
 Vulnerability Details

